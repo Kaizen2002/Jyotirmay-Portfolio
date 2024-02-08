@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    transition: transform 0.3s ease;
+}
+/* h1:hover{
+    transform: scale(1.5);
+} */
+
+/* -----------------------------------PAGE1-------------------------------------------- */
+/* -----------------------------------VIDEO------------------------------------------- */
+/* .back-video{
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+            opacity: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        } */
+/* ------------------------------------------------------------------------------------- */
+.page {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#page1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page1 h1 {
+    font-size: 10vw;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: transparent;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+#page1 p {
+    text-align: center;
+    font-size: 2vw;
+    letter-spacing: 5px;
+}
+
+/* -----------------------------------PAGE-2-------------------------------------------------- */
+
+#page2 {
+    display: flex;
+    letter-spacing: 2px;
+    /* height: 80vh; */
+}
+
+.page2-box1 {
+    flex: 60%;
+    /* background: rgb(246, 238, 87); */
+    display: flex;
+    align-items: center;
+}
+
+.page2-box1-cont p {
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 1em;
+    line-height: 30px;
+}
+
+.page2-box1-cont h3 {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.page2-box2 {
+    flex: 40%;
+    /* background: rgb(0, 162, 59); */
+}
+
+#page2 h1 {
+    font-size: 5vw;
+}
+
+#page2 h2 {
+    font-size: 4vw;
+}
+
+.page2-box2 {
+    display: flex;
+    align-items: center;
+}
+
+.page2-box2 img {
+    max-width: 80%;
+}
+
+/* -----------------------------------PAGE-3-------------------------------------------------- */
+#page3 h1 {
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+    color: black;
+}
+#page3 p{
+    font-size: 20px;
+    word-spacing: 2px;
+    padding: 50px;
+    line-height: 35px;
+}
+.page3-box2{
+    height: 20vh;
+    margin-top: 20px;
+}
+.skill-box{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 20px;
+}
+.skill-box img{
+    width: 50px;
+}
+.skill-box img:hover{
+    transform: scale(2.5);
+}
+
+/* -----------------------------------PAGE-4    -------------------------------------------------- */
+
+#page4 {
+    height: 150vh;
+}
+
+#page4 h1 {
+    text-align: center;
+    font-size: 45px;
+    color: black;
+}
+.page4-cont{
+    display: flex;
+    flex-direction: column;
+}
+.p4box{
+    width: 100%;
+    height: 30vh;   
+    margin: 20px;
+    display: flex;
+}
+.p4box1{
+    flex: 30%;
+}
+.p4box1 img{
+    width: 100%;
+}
+.p4box2{
+    flex: 70%;
+    padding: 30px;
+}
+/* .p4box1 img:hover{
+    transform: scale(0.5);
+} */
+.p4box2 p{
+    margin-top: 25px;
+    line-height: 28px;
+}
+.projects-name{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+.projects-name:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* -----------------------------------PAGE-5   -------------------------------------------------- */
+
+#page5 p{
+    padding: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+}
+.contact-section {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* ---------------------------RESPONSIVE----------------------------- */
+/* ---------------------------RESPONSIVE----------------------------- */
+/* ---------------------------RESPONSIVE----------------------------- */
+/* ---------------------------RESPONSIVE----------------------------- */
+
+
+@media screen and (min-width: 800px) {
+
+    #page3  {
+        height: 90vh;
+    }
+    
+}
+/* ---------------------------RESPONSIVE----------------------------- */
+/* ---------------------------RESPONSIVE----------------------------- */
+/* ---------------------------RESPONSIVE----------------------------- */
+
+@media screen and (max-width: 800px) {
+    #page2{
+        height: 60vh;
+    }
+}
+
+/* ----------------------------------------------------------------- */
+
+@media screen and (max-width: 700px) { 
+    #page1 p {
+        font-size: 3vw;
+    }
+    
+    /* -----------------------------------PAGE-2-------------------------------------------------- */
+    
+    #page2 {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 0px;
+    }
+    .page2-box1 {
+        flex: 100%;
+        display: flex;
+        align-items: center;
+        order: 2;
+    }
+    
+    .page2-box1-cont p {
+        margin-top: 10px;
+        padding: 10px 30px;
+        font-size: 1em;
+        line-height: 30px;
+        text-align: justify;
+        
+    }
+    
+    .page2-box1-cont h3 {
+        font-size: 15px;
+    }
+    
+    .page2-box2 {
+        flex: 40%;
+        order: 1;
+        /* background: rgb(0, 162, 59); */
+    }
+    
+    #page2 h1 {
+        font-size: 8vw;
+        text-align: center;
+    }
+    #page2 h2 {
+        font-size: 4vw;
+    }
+    
+    .page2-box2 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .page2-box2 img {
+        width: 80%;
+        margin: auto;
+        
+    }
+    
+    /* -----------------------------------PAGE-3-------------------------------------------------- */
+    #page3{
+        height: 100%;
+    }
+    #page3 p{
+        font-size: 1em;
+        word-spacing: 2px;
+        padding: 10px 30px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    .page3-box2{
+        height: 100%;
+        margin-top: 20px;
+        /* background: red; */
+    }
+    .skill-box img{
+        width: 30px;
+    }
+    /* -----------------------------------PAGE-4    -------------------------------------------------- */
+    
+    #page4 {
+        height: 100%;
+        
+    }
+    .page4-cont{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .p4box{
+        width: 100%;
+        height: 100%;   
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .p4box1{
+        flex: 30%;
+        order: 1;
+    }
+    .p4box1 img{
+        margin-top: 5px;
+        width: 90%;
+        border-radius: 30px;
+    }
+    .p4box2{
+        flex: 70%;
+        padding: 30px;
+        order: 2;
+    }
+    .p4box2 p{
+        text-align: justify;
+        margin-top: 25px;
+        line-height: 28px;
+    }
+    .projects-name{
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: underline;
+        letter-spacing: 1px;
+        text-align: start;
+    }
+    
+    /* -----------------------------------PAGE-5   -------------------------------------------------- */
+    
+    #page5{
+        
+        height: 120%;
+    }
+}
